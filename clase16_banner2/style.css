@@ -1,0 +1,40 @@
+/* centrar en la imagen con position - accessible*/
+
+.container-banner {
+    position: relative;
+}
+
+.container-banner img {
+    width: 100%;
+}
+
+.main-title-banner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -160px;
+    margin-top: -15px;
+}
+
+
+/* div con foto de fondo - no accessible */
+
+.container-banner-ada {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("banner.jpg");
+    background-position: right;
+}
+
+.container-banner-gatito {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("http://placekitten.com/200/200");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+}

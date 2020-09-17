@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.container-rosa {
+    width: 500px;
+    height: 300px;
+    background-color: pink;
+    position: relative;
+}
+
+.rojo {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.naranja {
+    width: 100px;
+    height: 100px;
+    background-color: #ffa500;
+    position: absolute;
+    right: 10px;
+}
+
+.amarillo {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.container {
+    background-color: #cacaca;
+}
+
+.fas.fa-search {
+    position: relative;
+    right: 22px;
+    top: 2px;
+}
+
+.search {
+    width: 500px;
+    height: 50px;
+    position: relative;
+    background-color: cadetblue;
+}

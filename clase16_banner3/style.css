@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #BFCC94;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+}
+
+.menu {
+    width: 200px;
+    height: 100vh;
+    background-color: #E6AACE;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.ocultar {
+    display: none;
+}
