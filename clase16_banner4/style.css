@@ -42,6 +42,10 @@ main {
     display: none;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 #gatito {
     position: relative;
     z-index: 2;

@@ -7,10 +7,12 @@ const gatito = document.getElementById("gatito")
 
 botonAbrirMenu.onclick = () => {
     overlay.classList.remove("ocultar")
+    document.body.classList.add("no-scroll")
 }
 
 botonCerrarMenu.onclick = () => {
     overlay.classList.add("ocultar")
+    document.body.classList.remove("no-scroll")
 }
 
 
